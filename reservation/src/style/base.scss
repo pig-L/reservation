@@ -1,0 +1,25 @@
+
+//将px转化成rem
+@function px2rem($px, $base-font-size: 108px) {
+  @if (unitless($px)) {
+      @warn "Assuming #{$px} to be in pixels, attempting to convert it into pixels for you";
+      @return px2rem($px + 0px); // That may fail.
+  } @else if (unit($px) == em) {
+      @return $px;
+  }
+  @return ($px / $base-font-size) * 1rem;
+}
+
+//适配字体
+@mixin font-dpr($font-size){
+  font-size: $font-size;
+
+  [data-dpr="2"] & {
+      font-size: $font-size * 2;
+  }
+
+  [data-dpr="3"] & {
+      font-size: $font-size * 3;
+  }
+}
+

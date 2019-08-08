@@ -1,0 +1,26 @@
+.van-dialog__header{
+    @include font-dpr(18px);
+}
+.van-dialog__message{
+    @include font-dpr(14px);
+    text-align: center;
+}
+.van-dialog__cancel{
+    @include font-dpr(14px);
+}
+.van-button--large{
+    height:px2rem(100px);
+    line-height: px2rem(100px);
+}
+.van-dialog__confirm{
+    @include font-dpr(14px);
+}
+.van-toast{
+    @include font-dpr(14px);
+    padding:px2rem(30px);
+}
+.van-toast--default{
+    width:40%;
+    line-height: 44px;
+    min-height:20%;
+}

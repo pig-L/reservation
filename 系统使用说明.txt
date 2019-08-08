@@ -1,0 +1,5 @@
+1、rsdatabase是本系统的数据库，直接把这个文件复制到本地的mysql数据库中
+2、如果本地没有安装node.js，请先安装node.js，如有则直接执行第三步
+3、进入server文件夹，shift键+鼠标右击打开命令行，然后运行npm run start
+4、浏览器输入http://localhost:3000/index.html#/进入手机端首页
+5、浏览器输入http://localhost:3000/backstage.html#/进入后台管理系统
