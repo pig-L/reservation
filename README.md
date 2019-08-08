@@ -33,13 +33,13 @@ http://localhost:3000/backstage.html#/ 进入后台管理系统<br>
 ### 成为商家
 首先登录，如果要发布服务则要先申请成为商家<br>
 ![图片演示](https://github.com/pig-L/reservation/blob/master/showImg/apply.gif) <br>
-管理员通过审核
+管理员通过审核<br>
 ![图片演示](https://github.com/pig-L/reservation/blob/master/showImg/agree.gif) <br> 
 ### 发布服务
-发布成功之后可以在，个人主页看到自己发布的服务
+发布成功之后可以在，个人主页看到自己发布的服务<br>
 ![图片演示](https://github.com/pig-L/reservation/blob/master/showImg/publish.gif) <br>
 ### 预约服务
-预约成功之后，商家接受预约之后，完成服务之后用户可以评价服务
+预约成功之后，商家接受预约之后，完成服务之后用户可以评价服务<br>
 ![图片演示](https://github.com/pig-L/reservation/blob/master/showImg/reserve.gif) <br>
 ![图片演示](https://github.com/pig-L/reservation/blob/master/showImg/result.gif) <br>
 
