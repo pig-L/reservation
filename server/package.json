@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "async": "^2.6.2",
+    "async": "^3.2.2",
     "connect-mongo": "^2.0.3",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.5",
